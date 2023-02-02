@@ -1,0 +1,37 @@
+.feature-box:hover .icon-img{
+      background: rgb(10, 191, 252);
+}
+.feature-box{
+    transition-duration: 0.4s;
+}
+.feature-box:hover{
+    box-shadow: 0px 5px 7px 0px grey;
+}
+.feature-box{
+    border-top-right-radius: 60%;
+}
+.company-section,.feature-blue-section{
+    background-color: rgb(244,248,255);
+}
+.company-img{
+    animation: sliding 15s linear infinite 0s forwards;
+    top: 0;
+    left: 0;
+}
+@keyframes sliding{
+    0%{
+        top:0;
+    }
+    100%{
+        top: -950px;
+    }
+}
+.slider-box{
+    position: absolute;
+    transition: 1s;
+}
+#right-arrow,#left-arrow{
+    z-index: 100;
+    color: skyblue;
+    font-size: 50px;
+}
